@@ -534,6 +534,7 @@ body {
   -webkit-transform: scaleX(0);
       -ms-transform: scaleX(0);
           transform: scaleX(0);
+  opacity: 0;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -556,6 +557,7 @@ body {
   -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
           transform: scaleX(1);
+  opacity: 1;
 }
 
 .icon-menu {
@@ -1182,9 +1184,7 @@ body {
 
 @media (max-width: 47.99875em) {
   .squares {
-    -webkit-transform: scale(0.5);
-        -ms-transform: scale(0.5);
-            transform: scale(0.5);
+    opacity: 0.7;
   }
 
   .squares--item-1 {
