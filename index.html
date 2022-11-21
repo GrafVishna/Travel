@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221121150321">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221121165638">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
 		</header>
 		<main class="page">
 			<!-- ? SECTION FULLSCREEN ======================================================================================================================================================== -->
-			<section class="fullscreen">
+			<section data-fullscreen class="fullscreen">
 				<div class="fullscreen__image fullscreen__image--sky"></div>
 				<div class="fullscreen__image fullscreen__image--back" data-prlx-mouse data-prlx-cx="600" data-prlx-cy="600" data-prlx-a="20"></div>
 				<div class="fullscreen__image fullscreen__image--center" data-prlx-mouse data-prlx-cx="400" data-prlx-cy="400" data-prlx-a="20"></div>
@@ -142,17 +142,17 @@
 						<!-- Оболочка слайдера -->
 						<div class="top__menu swiper">
 							<!-- Двигающееся часть слайдера -->
-							<ul class="top__list swiper-wrapper">
+							<div class="top__list swiper-wrapper">
 								<!-- Слайд -->
-								<li class="swiper-slide _icon--filter-decor _active"><a href="#">World</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">Africa</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">Asia</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">Europe</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">North America</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">South America</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">Antarctica</a></li>
-								<li class="swiper-slide _icon--filter-decor"><a href="#">Australia</a></li>
-							</ul>
+								<button class="swiper-slide _icon--filter-decor _active" type="button">World</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">Africa</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">Asia</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">Europe</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">North America</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">South America</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">Antarctica</button>
+								<button class="swiper-slide _icon--filter-decor" type="button">Australia</button>
+							</div>
 						</div>
 					</div>
 
@@ -168,7 +168,7 @@
 										<div class="slide-top__details">
 											<div class="slide-top__info">
 												<div class="slide-top__location _icon--nav">Austria</div>
-												<h3 class="slide-top__name">Winter Park Ski Holiday</h3>
+												<h3 class="slide-top__name"><a href="#">Winter Park Ski Holiday</a></h3>
 												<div class="slide-top__footer">
 													<div class="slide-top__price">
 														<div class="slide-top__from">From</div>
@@ -197,7 +197,7 @@
 										<div class="slide-top__details">
 											<div class="slide-top__info">
 												<div class="slide-top__location _icon--nav">Peru</div>
-												<h3 class="slide-top__name">Machu Picchu</h3>
+												<h3 class="slide-top__name"><a href="#">Machu Picchu</a></h3>
 												<div class="slide-top__footer">
 													<div class="slide-top__price">
 														<div class="slide-top__from">From</div>
@@ -226,7 +226,7 @@
 										<div class="slide-top__details">
 											<div class="slide-top__info">
 												<div class="slide-top__location _icon--nav">Croatia</div>
-												<h3 class="slide-top__name">Hvar</h3>
+												<h3 class="slide-top__name"><a href="#">Hvar</a></h3>
 												<div class="slide-top__footer">
 													<div class="slide-top__price">
 														<div class="slide-top__from">From</div>
@@ -255,7 +255,7 @@
 										<div class="slide-top__details">
 											<div class="slide-top__info">
 												<div class="slide-top__location _icon--nav">Jordan</div>
-												<h3 class="slide-top__name">Wadi Musa</h3>
+												<h3 class="slide-top__name"><a href="#">Wadi Musa</a></h3>
 												<div class="slide-top__footer">
 													<div class="slide-top__price">
 														<div class="slide-top__from">From</div>
@@ -304,7 +304,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20221121150321"></script>
+	<script src="js/app.min.js?_v=20221121165638"></script>
 </body>
 
 </html>
