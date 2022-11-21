@@ -1033,7 +1033,8 @@ body {
   overflow: hidden;
 }
 
-.slide-top__wrapper > img {
+.slide-top__wrapper img,
+.slide-top__wrapper picture {
   position: absolute;
   top: 0;
   left: 0;
